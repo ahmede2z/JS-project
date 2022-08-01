@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #787878;
+}
+
+.header-cont {
+
+    width: 100% !important;
+    text-align: center;
+    color: #dc3545 !important;
+    font-weight: 400;
+    font-size: 38px;
+}
+/* sec1-Q1 */
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.header-cont span {
+    color: #28a745 !important;
+    color: rgb(red, green, blue);
+}
+
+.sec1-det {
+    background-color: #e9ecef;
+}
+
+.sec1-det h2 {
+    color: #28a745 !important;
+    color: green;
+}
+/* sec2 - Q2 */
+#q2{
+    transition: background-color 0.4s ;
+}   
+
+.sec2-cont{
+    height: 60vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2-cont h2{
+
+    color: #000;
+    font-size: 7rem;
+    line-height: 500px;
+}
+
+/* sec3-Q3 */
+#q3{
+    height: 80vh !important;
+}
+#q3 h2{
+    font-style: italic;
+}
+.sec3-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.sec3-cont > div{
+    border: solid 2px white;
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.sec3-cont > div span{
+    font-size: 2rem;
+}
+.sec3-cont > div p{
+    font-size: 0.8rem;
+}
+
+#q4{
+    transition: background-color 0.3s ease-in-out;
+}
